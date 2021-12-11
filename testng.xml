@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test_Automation" verbose="1"  >
+    <test name="automation_parallel" >
+        <packages>
+            <package name="automation_parallel"/>
+        </packages>
+<!--        <classes>-->
+<!--            <class name="automation_parallel.CalculateMortgageRate_parallel" />-->
+<!--            <class name="automation_parallel.CalculateRealAprRate_parallel" />-->
+<!--        </classes>-->
+    </test>
+
+<!--    <test name="PHP_Travel">-->
+<!--        <classes>-->
+<!--            <class name="automation_test.php_travel.TestNGWebDriver"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Selenium_grid">-->
+<!--        <classes>-->
+<!--            <class name="selenium_grid.SeleniumGrid_Test1"/>-->
+<!--            <class name="selenium_grid.SeleniumGrid_Test2"/>-->
+<!--            <class name="selenium_grid.SeleniumGrid_Test3"/>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+
+</suite>
